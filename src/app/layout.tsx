@@ -9,6 +9,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://lancarpos.dimasroger.my.id'),
   title: "LancarPos — POS Dashboard untuk UMKM Indonesia",
   description:
     "Kasir, stok, dan laporan bisnis dalam satu dashboard. Dirancang khusus untuk Laundry, F&B, dan Toko Bangunan.",
