@@ -168,20 +168,20 @@ export default function IndustrySelector() {
           </div>
 
           {/* Fully balanced CTA buttons row */}
-          <div className="pt-2 flex flex-col sm:flex-row gap-3">
+          <div className="pt-2 flex flex-col sm:flex-row gap-2.5">
             <a
               href={current.demoUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="flex-1 py-2.5 px-5 bg-primary text-white text-button-text font-bold rounded-full shadow-soft hover:bg-primary-active hover:scale-[1.01] active:scale-[0.99] transition-notion flex items-center justify-center gap-1.5"
+              className="w-full sm:w-auto py-2 px-4.5 bg-primary text-white text-caption font-bold rounded-full shadow-soft hover:bg-primary-active hover:scale-[1.01] active:scale-[0.99] transition-notion flex items-center justify-center gap-1.5"
             >
-              Coba Demo {current.title} <ChevronRight className="w-4 h-4" />
+              Coba Demo {current.title} <ChevronRight className="w-3.5 h-3.5" />
             </a>
             <a
               href="https://lancar-pos-dashboard.vercel.app/login?demo=true&industry=fnb"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex-1 py-2.5 px-5 bg-canvas border border-hairline text-ink-secondary text-button-text font-bold rounded-full shadow-soft hover:bg-canvas-soft text-center transition-notion flex items-center justify-center"
+              className="w-full sm:w-auto py-2 px-4.5 bg-canvas border border-hairline text-ink-secondary text-caption font-bold rounded-full shadow-soft hover:bg-canvas-soft text-center transition-notion flex items-center justify-center"
             >
               Lihat Demo Umum
             </a>
